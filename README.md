@@ -1,9 +1,3 @@
-# Fabric Example Mod
-
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+# Fabric-MyPlayground
+My first attempt to build a Minecraft Fabric mod.
+Also a playground for exploring before literally starting to create a fruitful mod.
