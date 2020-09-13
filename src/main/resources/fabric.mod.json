@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "myplayground",
+  "version": "${version}",
+
+  "name": "My Playground",
+  "description": "TheSamekichi's first attempt to build a Minecraft Fabric mod.",
+  "authors": [
+    "TheSamekichi"
+  ],
+  "contact": {
+    "homepage": "https://https://github.com/Samekichi",
+    "sources": "https://https://github.com/Samekichi"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/myplayground/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.myplayground.MyPlayground"
+    ]
+  },
+  "mixins": [
+    "myplayground.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
